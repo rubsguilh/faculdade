@@ -20,10 +20,31 @@ public class PacienteBean {
 	private String estado;
 	private String cidade;
 	private String sexo;
+	private String telefone;
 	private byte foto;
 	private Paciente paciente;
 	private PacienteServico servico;
 	
+	
+	
+	public String getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	public Paciente getPaciente() {
+		return paciente;
+	}
+	public void setPaciente(Paciente paciente) {
+		this.paciente = paciente;
+	}
+	public PacienteServico getServico() {
+		return servico;
+	}
+	public void setServico(PacienteServico servico) {
+		this.servico = servico;
+	}
 	public int getCodigo() {
 		return codigo;
 	}
